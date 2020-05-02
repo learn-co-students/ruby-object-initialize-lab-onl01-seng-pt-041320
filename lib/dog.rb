@@ -1,10 +1,11 @@
-class Person
-
-    attr_accessor :name
-    def (name)
-        @name
+class Dog
+    def initialize (name, breed = "Mutt")
+        @name = name
+        @breed = breed
     end
-
 end
+
+fido = Dog.new("Fido", "Breed")
+
 
 
